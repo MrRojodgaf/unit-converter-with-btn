@@ -60,6 +60,15 @@ input::-webkit-inner-spin-button {
     padding: 2px 0;
 }
 
+@media screen and (max-width: 500px) {
+    .yes {
+      width: 80vw;
+    }
+    .yes p {
+        font-size: 25px;
+    }
+  }
+
 .yes p {
     font-size: 20px;
     color: #ffffff;
