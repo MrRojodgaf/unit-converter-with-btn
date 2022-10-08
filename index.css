@@ -13,7 +13,7 @@ body {
 }
 
 .hero-h1 {
-    font-size: 22px;
+    font-size: 25px;
     color: #ffffff;
 }
 
@@ -32,10 +32,12 @@ body {
 
 #convert-btn {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto 10px auto;
     border: 1px solid #B295FF;
     border-radius: 4px;
-    padding: 5px 17px;
+    padding: 8px  17px;
+    font-size: 18px;
+    font-family: monospace;
 }
 
 input::-webkit-outer-spin-button,
@@ -50,8 +52,8 @@ input::-webkit-inner-spin-button {
 }
 
 .yes {
-    width: 350px;
-    margin: 10px auto;
+    width: 600px;
+    margin: 40px auto 10px auto;
     background: #273549;
     color: #CCC1FF;
     border-radius: 4px;
@@ -59,8 +61,9 @@ input::-webkit-inner-spin-button {
 }
 
 .yes p {
-    font-size: 13px;
+    font-size: 20px;
     color: #ffffff;
+    font-family: sans-serif;
 }
 
 .length {
